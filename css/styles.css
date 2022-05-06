@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/*აქ ვიმუშავე ჰედერზე მაგრამ რაღაც შეცდომა მაქვს ლოგოსთან*/
+header{
+    background-color: black;
+    width: 100%;
+    padding: 12px 100px;
+    height: 94px;
+}
+header h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999999px;
+    float: left;
+}
+h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+header nav ul li{
+    float: left;
+    margin-right: 20px;
+    color: aliceblue;
+    
+}
+header nav ul{
+    margin-left: 170px;
+    padding-top: 26px;
+}
+header nav ul li a{
+    color: aliceblue;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+/*აქ ვიმუშავე მთავარზე*/
+main{
+    padding: 50px 100px;
+}
+section{
+    width: 85%;
+    height: 20px;
+    
+}
+.todayshits{
+    width: 25%;
+    float: left;
+    margin-right: 8%;
+    
+
+}
+.todayshitsbox{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.charcho{
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    background-position-y: 70px;
+}
+.todayshits p{
+    margin-top: 10px;
+}
+.todayshits p a{
+    color: black;
+    font-size: 12px;
+}
+.like{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/like.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+     position: absolute;
+    top: 0;
+    right: 0;
+}
+.text{
+    margin-top: 190px;
+    margin-left: 10px;
+}
+.latest{
+    clear: both;
+    padding-top: 30px;
+}
+/*აქ ვიმუშავე footer-ზე*/
+footer{
+    clear: both;
+    width: 100%;
+    padding: 30px 0px;
+    background-color: black;
+    text-align: center;
+}
+footer h1{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    margin: 30px auto;
+}
+footer nav a{
+    color: aliceblue;
+    padding: 5px 10px;
+}
+
+footer p{
+    color: aliceblue;
+    margin-top: 10px;
+}
+footer nav ul li{
+    color: aliceblue;
+}
+.firstlist{
+    margin-top: 30px;
+    
+}
+.artist1{
+    padding-top: 45px;
+}
+.mtavari{
+    float: left;
+    
+}
+.artist2{
+    padding-top: 45px;
+    padding-left: 160px;
+}
+.h2is{
+    padding-left: 160px;
+}
+.notebi8{
+    width: 288px;
+    height: 65px;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin-left: 360px;
+    margin-top: 300px;
+}
+.mtavari444{
+    float: left;
+}
+.artist3{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.gadaadgileba{
+    margin-left: 40px;
+    padding-top: 100px;
+}
+.notebi9{
+    width: 288px;
+    height: 65px;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin-left: 360px;
+    margin-top: 500px;
+    
+}
+.ending{
+    margin-left: 340px;
+    margin-top: 100px;
+    font-size: 38px;
+}
+.araferi{
+    padding-top: 100px;
+}
