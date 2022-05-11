@@ -43,6 +43,10 @@ header nav ul li a{
     padding: 5px 10px;
     font-size: 18px;
 }
+ul li:hover{
+    border-bottom: 5px solid rgb(255, 255, 255);
+    padding-top: 5px;
+}
 /*აქ ვიმუშავე მთავარზე*/
 main{
     padding: 50px 100px;
@@ -62,6 +66,9 @@ section{
 .todayshitsbox{
     margin-top: 50px;
     margin-bottom: 30px;
+}
+.todayshits:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .charcho{
     width: 100%;
@@ -89,6 +96,9 @@ section{
      position: absolute;
     top: 0;
     right: 0;
+}
+.like:hover{
+    background-image: url(../img/like\ gold.png);
 }
 .text{
     margin-top: 190px;
@@ -182,4 +192,10 @@ footer nav ul li{
 }
 .araferi{
     padding-top: 100px;
+}
+.mtavari:hover{
+    box-shadow: rgba(20, 16, 84, 0.4) -5px 5px, rgba(91, 46, 240, 0.3) -10px 10px, rgba(62, 46, 240, 0.2) -15px 15px, rgba(46, 78, 240, 0.1) -20px 20px, rgba(46, 62, 240, 0.05) -25px 25px;
+}
+.mtavari444:hover{
+    box-shadow: rgba(20, 16, 84, 0.4) -5px 5px, rgba(91, 46, 240, 0.3) -10px 10px, rgba(62, 46, 240, 0.2) -15px 15px, rgba(46, 78, 240, 0.1) -20px 20px, rgba(46, 62, 240, 0.05) -25px 25px;
 }
